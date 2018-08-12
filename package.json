@@ -1,0 +1,24 @@
+{
+	"name": "WigglingApi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --exec babel-node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.4",
+		"faker": "^4.1.0",
+		"fastify": "^1.9.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-plugin-syntax-object-rest-spread": "^6.13.0",
+		"babel-preset-env": "^1.7.0",
+		"nodemon": "^1.18.3"
+	}
+}
